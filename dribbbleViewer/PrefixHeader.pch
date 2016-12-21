@@ -1,0 +1,17 @@
+//
+//  PrefixHeader.pch
+//  dribbbleViewer
+//
+//  Created by iMac21 on 21.12.16.
+//  Copyright © 2016 jetruby. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+#import <MagicalRecord/MagicalRecord.h>
+
+#pragma mark - Model
+#import "DribbbleShot+CoreDataClass.h"
+
+#endif /* PrefixHeader_pch */

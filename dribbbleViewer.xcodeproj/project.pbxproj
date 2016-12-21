@@ -1,0 +1,434 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7F8611031E0A9C5F00963D63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8611021E0A9C5F00963D63 /* main.m */; };
+		7F8611061E0A9C5F00963D63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8611051E0A9C5F00963D63 /* AppDelegate.m */; };
+		7F86110C1E0A9C5F00963D63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F86110A1E0A9C5F00963D63 /* Main.storyboard */; };
+		7F86110F1E0A9C5F00963D63 /* dribbbleViewer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 7F86110D1E0A9C5F00963D63 /* dribbbleViewer.xcdatamodeld */; };
+		7F8611111E0A9C5F00963D63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F8611101E0A9C5F00963D63 /* Assets.xcassets */; };
+		7F8611141E0A9C5F00963D63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F8611121E0A9C5F00963D63 /* LaunchScreen.storyboard */; };
+		7F86111D1E0A9E4300963D63 /* FeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F86111C1E0A9E4300963D63 /* FeedViewController.m */; };
+		7F8611201E0AA46700963D63 /* DataManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F86111F1E0AA46700963D63 /* DataManager.m */; };
+		7F8611241E0AD5D300963D63 /* ShotCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F8611231E0AD5D300963D63 /* ShotCell.m */; };
+		D5B6466812DAFE8B33C8AD76 /* libPods-dribbbleViewer.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B5828762D577B7EBB6D0C6F2 /* libPods-dribbbleViewer.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		61F0F455751CC5E2781B2F9E /* Pods-dribbbleViewer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dribbbleViewer.debug.xcconfig"; path = "Pods/Target Support Files/Pods-dribbbleViewer/Pods-dribbbleViewer.debug.xcconfig"; sourceTree = "<group>"; };
+		7F8610FE1E0A9C5F00963D63 /* dribbbleViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dribbbleViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F8611021E0A9C5F00963D63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F8611041E0A9C5F00963D63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F8611051E0A9C5F00963D63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F86110B1E0A9C5F00963D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F86110E1E0A9C5F00963D63 /* dribbbleViewer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = dribbbleViewer.xcdatamodel; sourceTree = "<group>"; };
+		7F8611101E0A9C5F00963D63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F8611131E0A9C5F00963D63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F8611151E0A9C5F00963D63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F86111B1E0A9E4300963D63 /* FeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FeedViewController.h; sourceTree = "<group>"; };
+		7F86111C1E0A9E4300963D63 /* FeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FeedViewController.m; sourceTree = "<group>"; };
+		7F86111E1E0AA46700963D63 /* DataManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataManager.h; sourceTree = "<group>"; };
+		7F86111F1E0AA46700963D63 /* DataManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataManager.m; sourceTree = "<group>"; };
+		7F8611211E0AAA2B00963D63 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		7F8611221E0AD5D300963D63 /* ShotCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShotCell.h; sourceTree = "<group>"; };
+		7F8611231E0AD5D300963D63 /* ShotCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShotCell.m; sourceTree = "<group>"; };
+		B5828762D577B7EBB6D0C6F2 /* libPods-dribbbleViewer.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-dribbbleViewer.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E784F2F06FDF48108529AD32 /* Pods-dribbbleViewer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dribbbleViewer.release.xcconfig"; path = "Pods/Target Support Files/Pods-dribbbleViewer/Pods-dribbbleViewer.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F8610FB1E0A9C5F00963D63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5B6466812DAFE8B33C8AD76 /* libPods-dribbbleViewer.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1D57CB43F6A433BAE0573EE7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				61F0F455751CC5E2781B2F9E /* Pods-dribbbleViewer.debug.xcconfig */,
+				E784F2F06FDF48108529AD32 /* Pods-dribbbleViewer.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		490B1754CD0CC8EDC1D495EB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B5828762D577B7EBB6D0C6F2 /* libPods-dribbbleViewer.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F8610F51E0A9C5E00963D63 = {
+			isa = PBXGroup;
+			children = (
+				7F8611001E0A9C5F00963D63 /* dribbbleViewer */,
+				7F8610FF1E0A9C5F00963D63 /* Products */,
+				1D57CB43F6A433BAE0573EE7 /* Pods */,
+				490B1754CD0CC8EDC1D495EB /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F8610FF1E0A9C5F00963D63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F8610FE1E0A9C5F00963D63 /* dribbbleViewer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F8611001E0A9C5F00963D63 /* dribbbleViewer */ = {
+			isa = PBXGroup;
+			children = (
+				7F86111E1E0AA46700963D63 /* DataManager.h */,
+				7F86111F1E0AA46700963D63 /* DataManager.m */,
+				7F86111B1E0A9E4300963D63 /* FeedViewController.h */,
+				7F86111C1E0A9E4300963D63 /* FeedViewController.m */,
+				7F8611221E0AD5D300963D63 /* ShotCell.h */,
+				7F8611231E0AD5D300963D63 /* ShotCell.m */,
+				7F8611041E0A9C5F00963D63 /* AppDelegate.h */,
+				7F8611051E0A9C5F00963D63 /* AppDelegate.m */,
+				7F86110A1E0A9C5F00963D63 /* Main.storyboard */,
+				7F8611101E0A9C5F00963D63 /* Assets.xcassets */,
+				7F8611121E0A9C5F00963D63 /* LaunchScreen.storyboard */,
+				7F8611151E0A9C5F00963D63 /* Info.plist */,
+				7F8611211E0AAA2B00963D63 /* PrefixHeader.pch */,
+				7F86110D1E0A9C5F00963D63 /* dribbbleViewer.xcdatamodeld */,
+				7F8611011E0A9C5F00963D63 /* Supporting Files */,
+			);
+			path = dribbbleViewer;
+			sourceTree = "<group>";
+		};
+		7F8611011E0A9C5F00963D63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F8611021E0A9C5F00963D63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F8610FD1E0A9C5F00963D63 /* dribbbleViewer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F8611181E0A9C5F00963D63 /* Build configuration list for PBXNativeTarget "dribbbleViewer" */;
+			buildPhases = (
+				471A439769ECC546FF386CC3 /* [CP] Check Pods Manifest.lock */,
+				7F8610FA1E0A9C5F00963D63 /* Sources */,
+				7F8610FB1E0A9C5F00963D63 /* Frameworks */,
+				7F8610FC1E0A9C5F00963D63 /* Resources */,
+				25146AB01E440E346BC82520 /* [CP] Embed Pods Frameworks */,
+				79EF9B2CFDC201F1C874DA7E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dribbbleViewer;
+			productName = dribbbleViewer;
+			productReference = 7F8610FE1E0A9C5F00963D63 /* dribbbleViewer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F8610F61E0A9C5E00963D63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = jetruby;
+				TargetAttributes = {
+					7F8610FD1E0A9C5F00963D63 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = J23S42M345;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 7F8610F91E0A9C5E00963D63 /* Build configuration list for PBXProject "dribbbleViewer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F8610F51E0A9C5E00963D63;
+			productRefGroup = 7F8610FF1E0A9C5F00963D63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F8610FD1E0A9C5F00963D63 /* dribbbleViewer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F8610FC1E0A9C5F00963D63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8611141E0A9C5F00963D63 /* LaunchScreen.storyboard in Resources */,
+				7F8611111E0A9C5F00963D63 /* Assets.xcassets in Resources */,
+				7F86110C1E0A9C5F00963D63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		25146AB01E440E346BC82520 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dribbbleViewer/Pods-dribbbleViewer-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		471A439769ECC546FF386CC3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		79EF9B2CFDC201F1C874DA7E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-dribbbleViewer/Pods-dribbbleViewer-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F8610FA1E0A9C5F00963D63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F8611061E0A9C5F00963D63 /* AppDelegate.m in Sources */,
+				7F8611201E0AA46700963D63 /* DataManager.m in Sources */,
+				7F8611031E0A9C5F00963D63 /* main.m in Sources */,
+				7F86111D1E0A9E4300963D63 /* FeedViewController.m in Sources */,
+				7F86110F1E0A9C5F00963D63 /* dribbbleViewer.xcdatamodeld in Sources */,
+				7F8611241E0AD5D300963D63 /* ShotCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7F86110A1E0A9C5F00963D63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F86110B1E0A9C5F00963D63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F8611121E0A9C5F00963D63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F8611131E0A9C5F00963D63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F8611161E0A9C5F00963D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F8611171E0A9C5F00963D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F8611191E0A9C5F00963D63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 61F0F455751CC5E2781B2F9E /* Pods-dribbbleViewer.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J23S42M345;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = dribbbleViewer/PrefixHeader.pch;
+				INFOPLIST_FILE = dribbbleViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetruby.dribbbleViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F86111A1E0A9C5F00963D63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E784F2F06FDF48108529AD32 /* Pods-dribbbleViewer.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = J23S42M345;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = dribbbleViewer/PrefixHeader.pch;
+				INFOPLIST_FILE = dribbbleViewer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.jetruby.dribbbleViewer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F8610F91E0A9C5E00963D63 /* Build configuration list for PBXProject "dribbbleViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8611161E0A9C5F00963D63 /* Debug */,
+				7F8611171E0A9C5F00963D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F8611181E0A9C5F00963D63 /* Build configuration list for PBXNativeTarget "dribbbleViewer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F8611191E0A9C5F00963D63 /* Debug */,
+				7F86111A1E0A9C5F00963D63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		7F86110D1E0A9C5F00963D63 /* dribbbleViewer.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				7F86110E1E0A9C5F00963D63 /* dribbbleViewer.xcdatamodel */,
+			);
+			currentVersion = 7F86110E1E0A9C5F00963D63 /* dribbbleViewer.xcdatamodel */;
+			path = dribbbleViewer.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7F8610F61E0A9C5E00963D63 /* Project object */;
+}

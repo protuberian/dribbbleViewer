@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="16C67" minimumToolsVersion="Automatic" sourceLanguage="Objective-C" userDefinedModelVersionIdentifier="">
+    <entity name="DribbbleShot" representedClassName="DribbbleShot" syncable="YES" codeGenerationType="class">
+        <attribute name="about" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="created" attributeType="String" syncable="YES"/>
+        <attribute name="height" attributeType="Integer 32" usesScalarValueType="YES" syncable="YES"/>
+        <attribute name="hidpi" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="normal" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="teaser" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="uid" attributeType="Integer 32" usesScalarValueType="NO" syncable="YES"/>
+        <attribute name="width" attributeType="Integer 32" usesScalarValueType="YES" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="DribbbleShot" positionX="-63" positionY="-18" width="128" height="180"/>
+    </elements>
+</model>
